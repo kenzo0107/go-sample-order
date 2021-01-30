@@ -1,3 +1,5 @@
+[![test](https://github.com/kenzo0107/go-sample-order/workflows/test/badge.svg)](https://github.com/kenzo0107/go-sample-order/actions?query=workflow%3Atest) [![lint](https://github.com/kenzo0107/go-sample-order/workflows/lint/badge.svg)](https://github.com/kenzo0107/go-sample-order/actions?query=workflow%3Alint)
+
 This repository is created to check the processing order in Go.
 
 Result:
