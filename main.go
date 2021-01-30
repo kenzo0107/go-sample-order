@@ -5,10 +5,10 @@ import "github.com/kenzo0107/go-sample-order/pkg"
 // samepleVar : sample variable
 var sampleVar = defaultVar()
 
-func defaultVar() string {
+func defaultVar() int {
 	println(pkg.SampleVar)
 	println("main.var")
-	return ""
+	return 2
 }
 
 func init() {
