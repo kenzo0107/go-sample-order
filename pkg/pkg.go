@@ -1,5 +1,6 @@
 package pkg
 
+// SampleVar : sample variable in pkg
 var SampleVar = defaultVar()
 
 func defaultVar() int {

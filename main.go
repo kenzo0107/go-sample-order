@@ -2,15 +2,17 @@ package main
 
 import "github.com/kenzo0107/go-sample-order/pkg"
 
+// samepleVar : sample variable
 var sampleVar = defaultVar()
 
-func defaultVar() int {
+func defaultVar() string {
 	println(pkg.SampleVar)
 	println("main.var")
-	return 1
+	return ""
 }
 
 func init() {
+	println(sampleVar)
 	println("main.init")
 }
 
